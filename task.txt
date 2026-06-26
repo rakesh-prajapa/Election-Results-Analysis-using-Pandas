@@ -1,0 +1,106 @@
+Pandas Election Data Analysis Task
+File 1: candidates.csv
+candidate_id	candidate_name	party
+C101	Rahul Sharma	BJP
+C102	Priya Patil	INC
+C103	Amit Verma	BJP
+C104	Neha Singh	AAP
+C105	Karan Gupta	INC
+
+File 2: constituencies.csv
+constituency_id	constituency_name	state
+S01	Nagpur Central	Maharashtra
+S02	Pune City	Maharashtra
+S03	Indore East	Madhya Pradesh
+S04	Delhi North	Delhi
+S05	Jaipur South	Rajasthan
+
+File 3: election_results.csv
+result_id	candidate_id	constituency_id	votes
+1	C101	S01	85000
+2	C102	S02	78000
+3	C103	S03	NaN
+4	C104	S04	65000
+5	C105	S05	72000
+5	C105	S05	72000
+
+Tasks
+Task 1: Load Data
+    Load all CSV files into Pandas DataFrames.
+Task 2: Basic Inspection
+    Display first 5 rows    
+    Check shape
+    Check data types
+    Check column names
+Task 3: Null Value Handling
+    Check Null Values
+    Replace Null Votes
+    Replace missing votes with average votes.
+
+Task 4: Duplicate Handling
+    Check Duplicates
+    Remove Duplicates
+
+Task 5: Merge Data
+
+    Merge all three files into one DataFrame.
+
+    Final Columns
+    candidate_name	party	constituency_name	state	votes
+
+Task 6: Apply Function
+    Create a column:
+    vote_category
+    Condition:
+    Votes > 80000       High
+    Votes > 70000       Medium
+    Else                Low
+
+Task 7: Filtering
+Find:
+    All BJP candidates
+    All INC candidates
+    Candidates from Maharashtra
+    Candidates with votes greater than 75000
+    Constituencies in Delhi
+
+Task 8: Aggregate Functions
+Calculate:
+    Total Votes
+    Average Votes
+    Maximum Votes
+    Minimum Votes
+    Count of Candidates
+Task 9: Grouping
+    Party-wise Total Votes
+    State-wise Total Votes
+    Party-wise Average Votes
+    State-wise Maximum Votes
+
+Task 10: Sorting
+    Sort by Votes Descending
+    Sort by Candidate Name Ascending
+
+Task 11: Advanced Analysis
+Find Winning Candidate from Each State
+
+Hint:
+groupby('state')['votes'].idxmax()
+Find Party with Highest Total Votes
+Hint:
+    groupby('party')['votes'].sum()
+Top 3 Candidates by Votes
+Hint:
+    nlargest()
+Bottom 3 Candidates by Votes
+Hint:
+    nsmallest()
+
+Task 12: Business Questions
+    Which party received the highest total votes?
+    Which state recorded the highest votes?
+    Who is the top-performing candidate?
+    Which constituency had the highest votes?
+    What percentage of total votes did each party receive?
+    Which party has the highest average votes per candidate?
+    How many constituencies were won by each party?

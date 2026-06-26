@@ -1,0 +1,51 @@
+constituency_id,constituency_name,state
+S01,Nagpur Central,Maharashtra
+S02,Pune City,Maharashtra
+S03,Indore East,Madhya Pradesh
+S04,Delhi North,Delhi
+S05,Jaipur South,Rajasthan
+S06,Mumbai South,Maharashtra
+S07,Mumbai North,Maharashtra
+S08,Nashik West,Maharashtra
+S09,Aurangabad Central,Maharashtra
+S10,Thane East,Maharashtra
+S11,Bhopal North,Madhya Pradesh
+S12,Gwalior East,Madhya Pradesh
+S13,Jabalpur West,Madhya Pradesh
+S14,Ujjain South,Madhya Pradesh
+S15,Surat East,Gujarat
+S16,Ahmedabad West,Gujarat
+S17,Rajkot Central,Gujarat
+S18,Vadodara North,Gujarat
+S19,Lucknow Central,Uttar Pradesh
+S20,Kanpur South,Uttar Pradesh
+S21,Varanasi North,Uttar Pradesh
+S22,Agra West,Uttar Pradesh
+S23,Noida City,Uttar Pradesh
+S24,Patna Central,Bihar
+S25,Gaya South,Bihar
+S26,Ranchi East,Jharkhand
+S27,Dhanbad Central,Jharkhand
+S28,Bhubaneswar North,Odisha
+S29,Cuttack South,Odisha
+S30,Chennai Central,Tamil Nadu
+S31,Coimbatore South,Tamil Nadu
+S32,Madurai East,Tamil Nadu
+S33,Bengaluru South,Karnataka
+S34,Mysuru Central,Karnataka
+S35,Hubli West,Karnataka
+S36,Hyderabad Central,Telangana
+S37,Warangal North,Telangana
+S38,Vijayawada East,Andhra Pradesh
+S39,Visakhapatnam South,Andhra Pradesh
+S40,Kochi Central,Kerala
+S41,Nagpur Central,Maharashtra
+S42,Pune City,Maharashtra
+S43,Delhi North,Delhi
+S44,Jaipur South,Rajasthan
+S45,Indore East,Madhya Pradesh
+S46,Mumbai South,Maharashtra
+S46,Mumbai South,Maharashtra
+S47,Vadodara North,Gujarat
+S48,Patna Central,Bihar
+S50,Delhi North,Delhi
